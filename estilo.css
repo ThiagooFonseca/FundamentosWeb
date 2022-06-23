@@ -1,0 +1,77 @@
+h1,h2{
+  color:#7ac142;
+  font-size:60px
+}
+h3{ color:#7ac142;
+  font-size:40px
+}
+    
+body{
+  text-align:center;
+  background-color:#024;
+  color:#f0f8ff
+}
+.menu ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#7ac142;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  float:left
+}
+li a{
+  display:block;
+  color:#fff;
+  text-align:center;
+  padding:16px;
+  text-decoration:none
+}
+li a:hover{
+  background-color:#002a5c
+}
+a{
+  color:#7ac142;
+  text-decoration:none
+}
+a:hover{
+  color:#f0f8ff;
+  text-decoration:underline
+}
+input,textarea{
+  background-color:#002a5c;
+  color:#7ac144;
+  border:1px solid #fff
+}
+p{
+  font-size:30px
+}
+.Endereco
+{
+    
+      width:250px;
+
+ 
+   float:left;
+}
+
+.mapa
+{
+    
+    width:250px;
+    float:right;
+}
+.flex-container {
+  display: flex;
+  
+}
+
+.flex-container > div {
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 29px 16PX 44PX 146PX;
+  font-size: 30px;
+}
