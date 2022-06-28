@@ -2,12 +2,11 @@ h1,h2{
   color:#7ac142;
   font-size:60px
 }
-h3{ color:#7ac142;
+h3{
+  color:#7ac142;
   font-size:40px
 }
-    
 body{
-  text-align:center;
   background-color:#024;
   color:#f0f8ff
 }
@@ -17,8 +16,8 @@ body{
   padding:0;
   overflow:hidden;
   background-color:#7ac142;
-  display: flex;
-  justify-content: space-around;
+  display:flex;
+  justify-content:space-around
 }
 li{
   float:left
@@ -49,29 +48,45 @@ input,textarea{
 p{
   font-size:30px
 }
-.Endereco
-{
-    
-      width:250px;
-
- 
-   float:left;
+.Endereco{
+  width:250px;
+  float:left
+}
+.mapa{
+  width:250px;
+  float:right
+}
+.flex-container{
+  display:flex
+}
+.flex-container>div{
+  justify-content:flex-end;
+  margin:10px;
+  padding:29px 16PX 44PX 146PX;
+  font-size:30px
+}
+.tm-social{
+  width:50px;
+  height:50px
+}
+.nm{
+  font-size:20px
+}
+.margen{
+  margin-bottom:50px
+}
+.noticia1{
+  text-align:left;
+  font-size:1px;
+  width:45%
+}
+.N2{
+  font-size:20px;
+  text-align:justify;
+  width:85%
 }
 
-.mapa
-{
-    
-    width:250px;
-    float:right;
-}
-.flex-container {
-  display: flex;
-  
+#txtNome{
+  font-size: 20px;
 }
 
-.flex-container > div {
-  justify-content: flex-end;
-  margin: 10px;
-  padding: 29px 16PX 44PX 146PX;
-  font-size: 30px;
-}
